@@ -4,7 +4,7 @@ This project loads immune cell count data into SQLite, runs the requested analys
 
 ## Dashboard
 
-The public dashboard link will be added here after deployment.
+[Open the live dashboard](https://teiko-immune-response-explorer.vercel.app/)
 
 ## Running the project
 
