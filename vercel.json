@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "buildCommand": "npm --prefix frontend ci && npm --prefix frontend run build",
+  "functions": {
+    "app.py": {
+      "includeFiles": "{cell-count.db,outputs/**,frontend/dist/**}",
+      "excludeFiles": "{tests/**,.github/**,.cache/**,.venv/**,frontend/node_modules/**,cell-count.csv}",
+      "maxDuration": 60
+    }
+  }
+}

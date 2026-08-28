@@ -1,0 +1,17 @@
+{
+  "baseline_sample_count": 656,
+  "baseline_subject_count": 656,
+  "samples_by_project": {
+    "prj1": 384,
+    "prj3": 272
+  },
+  "subjects_by_response": {
+    "no": 325,
+    "yes": 331
+  },
+  "subjects_by_sex": {
+    "F": 312,
+    "M": 344
+  },
+  "average_b_cells_melanoma_male_responders_time_0": 10206.15
+}

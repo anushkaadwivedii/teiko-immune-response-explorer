@@ -1,0 +1,36 @@
+{
+  "frequency_rows": 52500,
+  "response_analysis_subjects": 656,
+  "significant_populations": [],
+  "response_signal": {
+    "population": "cd4_t_cell",
+    "median_difference_percentage_points": 0.3872968556511296,
+    "p_value": 0.012422106237428315,
+    "adjusted_p_value": 0.06211053118714158,
+    "fdr_significant": false
+  },
+  "baseline_response_analysis_subjects": 656,
+  "baseline_significant_populations": [],
+  "baseline_response_signal": {
+    "population": "monocyte",
+    "median_difference_percentage_points": -0.6804217689487189,
+    "p_value": 0.21138928177193006,
+    "adjusted_p_value": 0.8853281081905567,
+    "fdr_significant": false
+  },
+  "baseline_sample_count": 656,
+  "baseline_subject_count": 656,
+  "samples_by_project": {
+    "prj1": 384,
+    "prj3": 272
+  },
+  "subjects_by_response": {
+    "no": 325,
+    "yes": 331
+  },
+  "subjects_by_sex": {
+    "F": 312,
+    "M": 344
+  },
+  "average_b_cells_melanoma_male_responders_time_0": 10206.15
+}
